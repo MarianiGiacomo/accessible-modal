@@ -1,0 +1,22 @@
+{
+  "name": "accessible-modal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarianiGiacomo/accessible-modal.git"
+  },
+  "author": "Giacomo Mariani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarianiGiacomo/accessible-modal/issues"
+  },
+  "homepage": "https://github.com/MarianiGiacomo/accessible-modal#readme",
+  "dependencies": {
+    "wicg-inert": "^3.1.1"
+  }
+}
