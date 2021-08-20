@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="index.css"> 
+		<title>Test page</title>
+	</head>
+
+	<body aria-haspopup="dialog">
+
+		<div 
+			class="overlay" role="dialogue" aria-modal="true" 
+			aria-live="asserive" aria-label="modal example"
+		>
+			<div class="modal">
+				<h2>Title</h2>
+				<p>
+					To close click a button, Escape, or outside this dialog.
+				</p>
+				<button class="close-modal" aria-label="Close">
+					X
+				</button>
+				<button class="close-modal" >
+					Close
+				</button>
+			</div>
+		</div>
+
+		<main>
+			<h1>Main Title</h1>
+			<section>
+				<button class="open-modal">
+					Open Modal 1
+				</button>
+				<button class="open-modal">
+					Open Modal 2
+				</button>
+			</section>
+
+			<section>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+				<p>
+					 Volutpat sed cras ornare arcu dui vivamus arcu felis bibendum. 
+				</p>
+				<p>
+					Nibh ipsum consequat nisl vel pretium lectus. Odio tempor orci dapibus ultrices. 
+				</p>
+					Ornare lectus sit amet est placerat in egestas erat imperdiet. Tortor aliquam nulla facilisi cras fermentum odio eu feugiat. 
+				<p>
+					Elementum tempus egestas sed sed risus pretium quam vulputate. 
+				</p>	
+				<p>
+					Iaculis eu non diam phasellus vestibulum lorem. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra. 
+				</p>
+				<p>
+					Nisi est sit amet facilisis. Sed faucibus turpis in eu mi bibendum. 
+				</p>	
+			</section>	
+			
+		</main>
+
+		<script type="module" src="modal.js"></script>
+		<script type="module" src="inert.js"></script>
+	
+	</body>
+
+</html>
