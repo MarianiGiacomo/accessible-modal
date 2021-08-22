@@ -37,7 +37,44 @@
 			<h1>Accessible Modal Dialog Project</h1>
 			<section>
 				<p>
-					The purpose of this page is to show an example of accessible modal dialog. 
+					The purpose of this page is to show an example of accessible modal dialog
+					that satisfies the requirements set by the 
+					<a href="https://www.w3.org/WAI/GL/wiki/Using_ARIA_role%3Ddialog_to_implement_a_modal_dialog_box">
+						W3C WCAG working group:
+					</a>
+				</p>
+					<ol>
+						<li>The role=dialog is an attribute of the container (such as a div) 
+							that is used as the custom dialog.
+						</li>
+						<li>
+							The container is inserted (or made visible) via JavaScript following 
+							a user interaction or some other event.
+						</li>
+						<li>
+							When the dialog is activated, the focus is set to an element in the container.
+						</li>
+						<li>
+							When the dialog is active, the focus is never set to an element that is not 
+							in the container.
+						</li>
+						<li>
+							When the dialog is deactivated, the focus is set to the control that 
+							originally activated the dialog.
+						</li>
+					</ol>
+					<p>
+						On top of these five requirements, the modal dialog satisfies also the following:
+					</p>
+					<ul>
+						<li>
+							The modal dialog closes when the user clicks Escape.
+						</li>
+						<li>
+							The modal dialog closes when the user clicks outside its visible part.
+						</li>
+					</ul>
+					<p>
 					To report bugs post an issue on
 					<a 
 						href="https://github.com/MarianiGiacomo/accessible-modal/issues"
@@ -47,7 +84,7 @@
 						>GitHub.</a>
 				</p>
 				<p>
-					Click one of the buttons to open. 
+					Click one of the buttons to open the modal dialog.
 				</p>
 				<button class="open-modal">
 					Open Modal 1

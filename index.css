@@ -6,9 +6,18 @@ body {
 	font-family: monospace;
 }
 
-p {
+p, li {
 	font-size: 1.2rem;
 	line-height: 1.5rem;
+}
+
+ul, li {
+	text-align: left;
+}
+
+li {
+	margin-left: 5%;
+	font-size: 1rem;
 }
 
 button {
