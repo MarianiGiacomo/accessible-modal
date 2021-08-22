@@ -11,7 +11,7 @@ p, li {
 	line-height: 1.5rem;
 }
 
-ul, li {
+ul, ol, li {
 	text-align: left;
 }
 
